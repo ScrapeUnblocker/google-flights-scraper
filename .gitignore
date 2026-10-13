@@ -1,0 +1,24 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Scraper outputs
+*.csv
+*.json
+*.jsonl
+!.github/**/*.json
+!tests/fixtures/*.json
